@@ -1,0 +1,29 @@
+{
+  "name": "docker-swarm-mode-api",
+  "version": "1.0.0",
+  "description": "REST api for Docker Swarm mode functions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DJBnjack/docker-swarm-mode-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DJBnjack/docker-swarm-mode-api/issues"
+  },
+  "homepage": "https://github.com/DJBnjack/docker-swarm-mode-api#readme",
+  "dependencies": {
+    "boom": "^3.2.2",
+    "dockerode": "^2.3.0",
+    "koa": "^2.0.0-alpha.5",
+    "koa-router": "^7.0.1"
+  },
+  "jshintConfig": {
+    "esnext": true
+  }
+}
